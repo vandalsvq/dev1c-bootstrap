@@ -42,4 +42,5 @@ ParentConfigurations.bin text eol=lf
 
 # Git LFS
 src/Ext/ParentConfigurations/*.cf filter=lfs diff=lfs merge=lfs -text
-src/CommonTemplates/*/Ext/*.bin filter=lfs diff=lfs merge=lfs -binary
+**/CommonTemplates/**/*.bin filter=lfs diff=lfs merge=lfs -binary
+**/Templates/**/*.bin filter=lfs diff=lfs merge=lfs -binary
